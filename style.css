@@ -1,11 +1,19 @@
 body{
     background-color:#FFFFFF;
     color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 header{
-    background-color:#000033;
     color:#FFFFFF;
+    background: url(assets/sunset.jpg) right no-repeat;
+    background-color:#000033;
+    line-height:400%;
+    text-indent:1em;
+}
+
+h1,h2,h3{
+    font-family: Georgia, 'Times New Roman', serif;
 }
 
 h1{
@@ -14,12 +22,26 @@ h1{
 
 nav{
     background-color: #90C7E3;
+    font-weight:bold;
 }
 
 h2{
     color:#000033;
 }
 
+ul{
+    list-style-image: url(assets/marker.gif);
+}
+
+footer{
+    font-size:75%;
+}
+
 .resort{
     color:#5C7FA3;
+    font-size:bold;
+}
+
+#contact{
+    font-size:90%;
 }
