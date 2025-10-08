@@ -33,8 +33,33 @@ ul{
     list-style-image: url(assets/marker.gif);
 }
 
+table, td, th{
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+}
+
+table tr:nth-of-type(odd) {
+    background-color:#c4eeff;
+}
+
+td,th{
+    padding:0.5em;
+}
+
+td{
+    text-align:center;
+}
+
 footer{
     font-size:75%;
+}
+
+label, input{
+    display:block;
+}
+
+input, textarea{
+    margin-bottom:1em;
 }
 
 .resort{
@@ -42,6 +67,14 @@ footer{
     font-size:bold;
 }
 
+.required{
+    color:#FF0000;
+}
+
 #contact{
     font-size:90%;
+}
+
+#myEmail{
+    width:35ch;
 }
