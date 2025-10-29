@@ -1,5 +1,7 @@
 body{
-    background-color:#FFFFFF;
+    background-color:#90C7E3;
+    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    background-repeat:no-repeat;
     color:#666666;
     font-family:Arial, Helvetica, sans-serif;
 }
@@ -8,8 +10,9 @@ header{
     color:#FFFFFF;
     background: url(assets/sunset.jpg) right no-repeat;
     background-color:#000033;
-    line-height:400%;
-    text-indent:1em;
+    height:60px;
+    text-align:center;
+    padding-top:15px;
 }
 
 h1,h2,h3{
@@ -18,15 +21,28 @@ h1,h2,h3{
 
 h1{
     margin-bottom:0px;
+    margin-top:0px;
 }
 
 nav{
-    background-color: #90C7E3;
+    background-color: #FFFFFF;
     font-weight:bold;
+    text-align:center;
+    padding:10px;
+}
+
+main{
+    padding:20px;
+    padding-top:0px;
+}
+
+footer{
+    padding:20px;
 }
 
 h2{
     color:#000033;
+    text-shadow:3px 3px #CCCCCC;
 }
 
 ul{
@@ -77,4 +93,32 @@ input, textarea{
 
 #myEmail{
     width:35ch;
+}
+
+#wrapper{
+    width:80%;
+    margin:auto;
+    background-color:#FFFFFF;
+    box-shadow:3px 3px #333333;
+}
+
+#homehero{
+    background-image: url(images/coast.jpg);
+    height:300px;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+#yurthero{
+    background-image: url(images/yurt.jpg);
+    height:300px;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+#trailhero{
+    background-image: url(images/trail.jpg);
+    height:300px;
+    background-repeat: no-repeat;
+    background-size:100%;
 }
